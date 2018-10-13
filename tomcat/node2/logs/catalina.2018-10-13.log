@@ -1,0 +1,1078 @@
+13-Oct-2018 10:39:17.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 10:39:17.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 10:39:17.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 10:39:17.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 10:39:17.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 10:39:17.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 10:39:17.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node1
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node1
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node1\conf\logging.properties
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 10:39:17.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 10:39:17.129 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 10:39:17.129 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 10:39:17.129 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node1
+13-Oct-2018 10:39:17.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node1
+13-Oct-2018 10:39:17.130 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node1\temp
+13-Oct-2018 10:39:17.131 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 10:39:17.359 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Oct-2018 10:39:17.431 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 10:39:17.439 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2018 10:39:17.443 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 10:39:17.444 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 799 ms
+13-Oct-2018 10:39:17.483 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 10:39:17.483 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 10:39:17.498 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\docs]
+13-Oct-2018 10:39:18.010 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [168] milliseconds.
+13-Oct-2018 10:39:18.033 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\docs] has finished in [535] ms
+13-Oct-2018 10:39:18.034 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\examples]
+13-Oct-2018 10:39:18.615 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\examples] has finished in [581] ms
+13-Oct-2018 10:39:18.615 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\host-manager]
+13-Oct-2018 10:39:18.672 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\host-manager] has finished in [57] ms
+13-Oct-2018 10:39:18.672 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\manager]
+13-Oct-2018 10:39:18.719 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\manager] has finished in [47] ms
+13-Oct-2018 10:39:18.720 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\node1]
+13-Oct-2018 10:39:18.764 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\node1] has finished in [45] ms
+13-Oct-2018 10:39:18.764 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node1\webapps\ROOT]
+13-Oct-2018 10:39:18.794 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node1\webapps\ROOT] has finished in [29] ms
+13-Oct-2018 10:39:18.797 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Oct-2018 10:39:18.808 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Oct-2018 10:39:18.812 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1368 ms
+13-Oct-2018 11:12:05.328 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 11:12:05.395 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 11:12:05.395 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 11:12:05.395 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 11:12:05.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 11:12:05.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 11:12:05.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 11:12:05.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 11:12:05.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 11:12:05.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 11:12:05.399 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 11:12:05.399 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:12:05.400 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:12:05.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 11:12:05.401 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 11:12:05.564 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:12:05.639 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:12:05.647 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:12:05.650 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:12:05.651 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 822 ms
+13-Oct-2018 11:12:05.696 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 11:12:05.697 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 11:12:05.712 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 11:12:05.731 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5001]
+13-Oct-2018 11:12:05.927 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [191] milliseconds.
+13-Oct-2018 11:12:05.935 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 11:12:05.938 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 11:12:06.202 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=13033, securePort=-1, UDP Port=-1, id={53 -3 84 88 69 74 74 -110 -107 4 104 -6 -38 59 63 -12 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 11:12:06.940 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 11:12:06.950 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 11:12:06.979 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 11:12:07.954 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 11:12:07.967 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 11:12:08.003 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 11:12:08.384 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [380] ms
+13-Oct-2018 11:12:08.385 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 11:12:08.973 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [588] ms
+13-Oct-2018 11:12:08.973 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 11:12:09.015 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [41] ms
+13-Oct-2018 11:12:09.015 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 11:12:09.055 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [40] ms
+13-Oct-2018 11:12:09.056 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 11:12:09.114 信息 [localhost-startStop-1] org.apache.catalina.tribes.tipis.AbstractReplicatedMap.init Initializing AbstractReplicatedMap with context name:[localhost#/node2-map]
+13-Oct-2018 11:12:09.138 信息 [localhost-startStop-1] org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.report ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.01 seconds
+	Tx Speed:0.07 MB/sec (total)
+	TxSpeed:0.07 MB/sec (application)
+	Error Msg:0
+	Rx Msg:1 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+13-Oct-2018 11:12:09.184 警告 [localhost-startStop-1] org.apache.catalina.tribes.tipis.AbstractReplicatedMap.broadcast broadcast received 0 replies, probably a timeout.
+13-Oct-2018 11:12:09.196 警告 [localhost-startStop-1] org.apache.catalina.tribes.tipis.AbstractReplicatedMap.broadcast broadcast received 0 replies, probably a timeout.
+13-Oct-2018 11:12:09.197 信息 [localhost-startStop-1] org.apache.catalina.tribes.tipis.AbstractReplicatedMap.init AbstractReplicatedMap[localhost#/node2-map] initialization was completed in [83] ms.
+13-Oct-2018 11:12:09.205 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [149] ms
+13-Oct-2018 11:12:09.207 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 11:12:09.247 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [40] ms
+13-Oct-2018 11:12:09.256 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:12:09.270 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:12:09.279 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3628 ms
+13-Oct-2018 11:18:02.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 11:18:02.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 11:18:02.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:18:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 11:18:02.750 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 11:18:02.750 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 11:18:02.750 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 11:18:02.750 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 11:18:02.750 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:18:02.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:18:02.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 11:18:02.755 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 11:18:02.917 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:18:03.007 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:18:03.015 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:18:03.021 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:18:03.022 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1027 ms
+13-Oct-2018 11:18:03.084 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 11:18:03.084 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 11:18:03.099 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 11:18:03.123 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5001]
+13-Oct-2018 11:18:03.319 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [190] milliseconds.
+13-Oct-2018 11:18:03.330 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 11:18:03.333 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 11:18:03.644 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=15540, securePort=-1, UDP Port=-1, id={-48 28 -123 -109 -74 106 65 -16 -126 30 -21 -72 106 -99 -36 -124 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 11:18:04.334 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 11:18:04.343 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 11:18:04.371 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 11:18:05.345 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 11:18:05.360 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 11:18:05.398 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 11:18:05.798 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [401] ms
+13-Oct-2018 11:18:05.799 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 11:18:06.437 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [638] ms
+13-Oct-2018 11:18:06.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 11:18:06.478 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [40] ms
+13-Oct-2018 11:18:06.479 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 11:18:06.521 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [42] ms
+13-Oct-2018 11:18:06.522 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 11:18:06.570 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 11:18:06.572 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 11:18:06.631 信息 [localhost-startStop-1] org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.report ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.05 seconds
+	Tx Speed:0.01 MB/sec (total)
+	TxSpeed:0.01 MB/sec (application)
+	Error Msg:0
+	Rx Msg:2 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+13-Oct-2018 11:18:06.634 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=18557, securePort=-1, UDP Port=-1, id={-48 28 -123 -109 -74 106 65 -16 -126 30 -21 -72 106 -99 -36 -124 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Oct-2018 11:18:06.757 警告 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/node2]: No context manager send at [10/13/18 11:18 AM] received in [162] ms.
+13-Oct-2018 11:18:06.782 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [259] ms
+13-Oct-2018 11:18:06.785 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 11:18:06.828 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [44] ms
+13-Oct-2018 11:18:06.836 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:18:06.849 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:18:06.854 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3831 ms
+13-Oct-2018 11:18:17.340 警告 [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:23:07.906 警告 [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.tribes.transport.nio.NioReplicationTask.run IOException in replication worker, unable to drain channel. Probable cause: Keep alive socket closed[远程主机强迫关闭了一个现有的连接。].
+13-Oct-2018 11:23:14.481 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 11:23:14.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 11:23:14.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 11:23:14.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 11:23:14.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 11:23:14.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:23:14.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:23:14.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 11:23:14.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 11:23:14.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 11:23:14.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 11:23:14.556 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 11:23:14.557 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:23:14.557 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:23:14.558 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 11:23:14.559 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 11:23:14.728 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:23:14.811 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:23:14.828 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:23:14.833 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:23:14.834 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 876 ms
+13-Oct-2018 11:23:14.944 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 11:23:14.946 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 11:23:14.960 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 11:23:14.984 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5000]
+13-Oct-2018 11:23:15.182 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [192] milliseconds.
+13-Oct-2018 11:23:15.189 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 11:23:15.193 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 11:23:16.194 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 11:23:16.196 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 11:23:17.196 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 11:23:17.206 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 11:23:17.258 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 11:23:17.642 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [383] ms
+13-Oct-2018 11:23:17.643 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 11:23:18.272 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [629] ms
+13-Oct-2018 11:23:18.272 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 11:23:18.307 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [35] ms
+13-Oct-2018 11:23:18.308 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 11:23:18.347 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [40] ms
+13-Oct-2018 11:23:18.347 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 11:23:18.401 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 11:23:18.402 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 11:23:18.403 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2]: skipping state transfer. No members active in cluster group.
+13-Oct-2018 11:23:18.411 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [64] ms
+13-Oct-2018 11:23:18.411 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 11:23:18.444 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [33] ms
+13-Oct-2018 11:23:18.453 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:23:18.464 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:23:18.468 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3630 ms
+13-Oct-2018 11:23:42.818 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 11:23:43.356 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5001,{192, 168, 137, 1},5001, alive=1017, securePort=-1, UDP Port=-1, id={-81 -81 -2 26 -9 -121 67 -2 -104 32 -14 108 -45 121 -36 126 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 11:23:45.618 警告 [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:23:45.634 信息 [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.report ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.01 seconds
+	Tx Speed:0.05 MB/sec (total)
+	TxSpeed:0.05 MB/sec (application)
+	Error Msg:0
+	Rx Msg:2 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+13-Oct-2018 11:23:54.389 警告 [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:39:40.065 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/node2]
+13-Oct-2018 11:42:04.299 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 11:42:04.361 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 11:42:04.362 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 11:42:04.362 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 11:42:04.364 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 11:42:04.364 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:42:04.365 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 11:42:04.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 11:42:04.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 11:42:04.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 11:42:04.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 11:42:04.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:42:04.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:42:04.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 11:42:04.368 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 11:42:04.512 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:42:04.590 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:42:04.599 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:42:04.602 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:42:04.603 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 883 ms
+13-Oct-2018 11:42:04.651 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 11:42:04.651 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 11:42:04.665 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 11:42:04.685 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5001]
+13-Oct-2018 11:42:04.881 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [191] milliseconds.
+13-Oct-2018 11:42:04.889 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 11:42:04.893 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 11:42:05.173 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=10539, securePort=-1, UDP Port=-1, id={-10 50 25 27 2 42 72 121 -115 -72 114 -4 31 -83 -82 -72 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 11:42:05.893 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 11:42:05.899 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 11:42:05.923 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 11:42:06.902 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 11:42:06.907 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 11:42:06.937 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 11:42:07.292 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [355] ms
+13-Oct-2018 11:42:07.292 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 11:42:07.898 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [606] ms
+13-Oct-2018 11:42:07.898 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 11:42:07.939 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [41] ms
+13-Oct-2018 11:42:07.939 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 11:42:07.991 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [52] ms
+13-Oct-2018 11:42:07.992 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 11:42:08.042 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 11:42:08.044 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 11:42:08.103 信息 [localhost-startStop-1] org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.report ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.04 seconds
+	Tx Speed:0.01 MB/sec (total)
+	TxSpeed:0.01 MB/sec (application)
+	Error Msg:0
+	Rx Msg:2 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+13-Oct-2018 11:42:08.103 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=13042, securePort=-1, UDP Port=-1, id={-10 50 25 27 2 42 72 121 -115 -72 114 -4 31 -83 -82 -72 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Oct-2018 11:42:08.206 警告 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/node2]: No context manager send at [10/13/18 11:42 AM] received in [161] ms.
+13-Oct-2018 11:42:08.215 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [223] ms
+13-Oct-2018 11:42:08.216 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 11:42:08.252 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [36] ms
+13-Oct-2018 11:42:08.261 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:42:08.275 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:42:08.280 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3663 ms
+13-Oct-2018 11:42:14.982 警告 [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:45:00.168 警告 [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:50:33.283 警告 [Tribes-Task-Receiver[Catalina-Channel]-6] org.apache.catalina.tribes.transport.nio.NioReplicationTask.run IOException in replication worker, unable to drain channel. Probable cause: Keep alive socket closed[远程主机强迫关闭了一个现有的连接。].
+13-Oct-2018 11:56:06.839 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 11:56:06.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 11:56:06.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 11:56:06.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 11:56:06.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 11:56:06.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 11:56:06.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 11:56:06.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 11:56:06.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 11:56:06.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 11:56:06.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:56:06.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 11:56:06.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 11:56:06.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 11:56:06.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 11:56:06.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 11:56:06.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 11:56:06.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:56:06.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 11:56:06.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 11:56:06.923 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 11:56:07.111 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:56:07.199 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:56:07.207 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:56:07.210 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 11:56:07.210 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 878 ms
+13-Oct-2018 11:56:07.252 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 11:56:07.253 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 11:56:07.270 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 11:56:07.291 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5000]
+13-Oct-2018 11:56:07.493 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [196] milliseconds.
+13-Oct-2018 11:56:07.501 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 11:56:07.505 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 11:56:08.506 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 11:56:08.514 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 11:56:09.516 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 11:56:09.530 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 11:56:09.577 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 11:56:09.919 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [342] ms
+13-Oct-2018 11:56:09.921 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 11:56:10.532 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [610] ms
+13-Oct-2018 11:56:10.532 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 11:56:10.577 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [44] ms
+13-Oct-2018 11:56:10.577 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 11:56:10.624 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [47] ms
+13-Oct-2018 11:56:10.624 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 11:56:10.670 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 11:56:10.672 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 11:56:10.673 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2]: skipping state transfer. No members active in cluster group.
+13-Oct-2018 11:56:10.685 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [61] ms
+13-Oct-2018 11:56:10.686 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 11:56:10.727 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [41] ms
+13-Oct-2018 11:56:10.736 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 11:56:10.748 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 11:56:10.755 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3544 ms
+13-Oct-2018 11:56:30.586 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 11:56:31.139 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5001,{192, 168, 137, 1},5001, alive=1024, securePort=-1, UDP Port=-1, id={56 120 -18 -81 35 -26 72 35 -103 -66 97 -67 -67 113 -29 78 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 11:56:33.269 警告 [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:56:33.305 信息 [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.report ThroughputInterceptor Report[
+	Tx Msg:1 messages
+	Sent:0.00 MB (total)
+	Sent:0.00 MB (application)
+	Time:0.02 seconds
+	Tx Speed:0.02 MB/sec (total)
+	TxSpeed:0.02 MB/sec (application)
+	Error Msg:0
+	Rx Msg:2 messages
+	Rx Speed:0.00 MB/sec (since 1st msg)
+	Received:0.00 MB]
+
+13-Oct-2018 11:56:42.487 警告 [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:57:37.211 警告 [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 11:59:55.901 警告 [Tribes-Task-Receiver[Catalina-Channel]-6] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 12:05:38.667 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:05:38.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:05:38.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:05:38.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:05:38.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:05:38.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:05:38.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:05:38.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:05:38.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:05:38.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:05:38.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:05:38.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:05:38.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:05:38.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:05:38.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:05:38.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:05:38.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:05:38.757 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:05:38.761 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:05:38.761 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:05:38.762 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:05:38.928 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:05:39.053 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:05:39.065 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:05:39.069 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:05:39.070 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 939 ms
+13-Oct-2018 12:05:39.144 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:05:39.144 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:05:39.163 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:05:39.183 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5001]
+13-Oct-2018 12:05:39.389 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [201] milliseconds.
+13-Oct-2018 12:05:39.398 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:05:39.407 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:05:39.431 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=10023, securePort=-1, UDP Port=-1, id={-120 48 56 101 1 42 69 111 -118 -37 -69 14 -103 -1 29 76 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:05:40.409 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:08:34.747 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:08:34.779 严重 [main] org.apache.tomcat.util.digester.Digester.startElement Begin event threw exception
+ java.lang.ClassNotFoundException: org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.tomcat.util.digester.ObjectCreateRule.begin(ObjectCreateRule.java:116)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1250)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1344)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:593)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+13-Oct-2018 12:08:34.782 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (170, 104) : org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+13-Oct-2018 12:08:34.792 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:08:34.794 严重 [main] org.apache.tomcat.util.digester.Digester.startElement Begin event threw exception
+ java.lang.ClassNotFoundException: org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.tomcat.util.digester.ObjectCreateRule.begin(ObjectCreateRule.java:116)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1250)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1344)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:593)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+13-Oct-2018 12:08:34.796 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (170, 104) : org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+13-Oct-2018 12:08:34.797 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+13-Oct-2018 12:09:28.611 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:09:28.655 严重 [main] org.apache.tomcat.util.digester.Digester.startElement Begin event threw exception
+ java.lang.ClassNotFoundException: org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.tomcat.util.digester.ObjectCreateRule.begin(ObjectCreateRule.java:116)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1250)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1344)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:593)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+13-Oct-2018 12:09:28.657 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (170, 104) : org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+13-Oct-2018 12:09:28.671 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:09:28.673 严重 [main] org.apache.tomcat.util.digester.Digester.startElement Begin event threw exception
+ java.lang.ClassNotFoundException: org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.tomcat.util.digester.ObjectCreateRule.begin(ObjectCreateRule.java:116)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1250)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1344)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:593)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+13-Oct-2018 12:09:28.676 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: Error at (170, 104) : org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener
+13-Oct-2018 12:09:28.677 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+13-Oct-2018 12:09:44.466 警告 [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Cluster/Manager} Setting property 'expireSessionsOnShutdown' to 'false' did not find a matching property.
+13-Oct-2018 12:09:44.527 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:09:44.527 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:09:44.528 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:09:44.529 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:09:44.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:09:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:09:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:09:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:09:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:09:44.531 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:09:44.532 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:09:44.532 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:09:44.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:09:44.533 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:09:44.688 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:09:44.768 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:09:44.776 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:09:44.779 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:09:44.779 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 841 ms
+13-Oct-2018 12:09:44.823 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:09:44.823 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:09:44.839 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:09:44.865 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:5001]
+13-Oct-2018 12:09:45.095 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [224] milliseconds.
+13-Oct-2018 12:09:45.108 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:09:45.111 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:09:45.519 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=42576, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:09:46.111 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:09:46.118 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 12:09:46.132 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 12:09:47.119 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 12:09:47.136 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 12:09:47.168 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 12:09:47.541 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [374] ms
+13-Oct-2018 12:09:47.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 12:09:48.428 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [885] ms
+13-Oct-2018 12:09:48.430 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 12:09:48.482 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [53] ms
+13-Oct-2018 12:09:48.482 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 12:09:48.528 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [46] ms
+13-Oct-2018 12:09:48.528 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 12:09:48.587 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 12:09:48.588 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 12:09:53.611 信息 [localhost-startStop-1] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=50593, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Oct-2018 12:09:53.613 信息 [localhost-startStop-1] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=50593, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:09:53.614 严重 [localhost-startStop-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.send Unable to send message through cluster sender.
+ org.apache.catalina.tribes.ChannelException: Operation has timed out([3000] ms.).; Faulty members:tcp://{192, 168, 137, 1}:5000; 
+	at org.apache.catalina.tribes.transport.nio.ParallelNioSender.sendMessage(ParallelNioSender.java:105)
+	at org.apache.catalina.tribes.transport.nio.PooledParallelSender.sendMessage(PooledParallelSender.java:48)
+	at org.apache.catalina.tribes.transport.ReplicationTransmitter.sendMessage(ReplicationTransmitter.java:65)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.sendMessage(ChannelCoordinator.java:82)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.sendMessage(ThroughputInterceptor.java:67)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.sendMessage(MessageDispatchInterceptor.java:93)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.sendMessage(TcpFailureDetector.java:92)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:264)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:217)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.send(SimpleTcpCluster.java:684)
+	at org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions(DeltaManager.java:756)
+	at org.apache.catalina.ha.session.DeltaManager.startInternal(DeltaManager.java:722)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+13-Oct-2018 12:09:53.617 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=50593, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Oct-2018 12:10:53.698 严重 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/node2]: No session state send at [10/13/18 12:09 PM] received, timing out after [65,106] ms.
+13-Oct-2018 12:10:53.709 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [65,181] ms
+13-Oct-2018 12:10:53.709 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 12:10:53.749 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [40] ms
+13-Oct-2018 12:10:53.754 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 12:10:53.761 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:10:53.777 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:10:53.783 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 69003 ms
+13-Oct-2018 12:11:24.001 信息 [http-nio-8081-exec-1] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=140757, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Oct-2018 12:11:24.007 信息 [http-nio-8081-exec-1] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=140757, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:11:24.008 严重 [http-nio-8081-exec-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.send Unable to send message through cluster sender.
+ org.apache.catalina.tribes.ChannelException: Operation has timed out([3000] ms.).; Faulty members:tcp://{192, 168, 137, 1}:5000; 
+	at org.apache.catalina.tribes.transport.nio.ParallelNioSender.sendMessage(ParallelNioSender.java:105)
+	at org.apache.catalina.tribes.transport.nio.PooledParallelSender.sendMessage(PooledParallelSender.java:48)
+	at org.apache.catalina.tribes.transport.ReplicationTransmitter.sendMessage(ReplicationTransmitter.java:65)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.sendMessage(ChannelCoordinator.java:82)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.sendMessage(ThroughputInterceptor.java:67)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.sendMessage(MessageDispatchInterceptor.java:93)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.sendMessage(TcpFailureDetector.java:92)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:264)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:217)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.send(SimpleTcpCluster.java:690)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.send(SimpleTcpCluster.java:662)
+	at org.apache.catalina.ha.session.DeltaManager.send(DeltaManager.java:466)
+	at org.apache.catalina.ha.session.DeltaManager.sendCreateSession(DeltaManager.java:456)
+	at org.apache.catalina.ha.session.DeltaManager.createSession(DeltaManager.java:430)
+	at org.apache.catalina.ha.session.DeltaManager.createSession(DeltaManager.java:416)
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:3044)
+	at org.apache.catalina.connector.Request.getSession(Request.java:2434)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:896)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:908)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:137)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:102)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.ha.session.JvmRouteBinderValve.invoke(JvmRouteBinderValve.java:193)
+	at org.apache.catalina.ha.tcp.ReplicationValve.invoke(ReplicationValve.java:322)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+13-Oct-2018 12:11:29.639 信息 [http-nio-8081-exec-3] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=146263, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Oct-2018 12:11:29.641 信息 [http-nio-8081-exec-3] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=146263, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:11:29.641 严重 [http-nio-8081-exec-3] org.apache.catalina.ha.tcp.SimpleTcpCluster.send Unable to send message through cluster sender.
+ org.apache.catalina.tribes.ChannelException: Operation has timed out([3000] ms.).; Faulty members:tcp://{192, 168, 137, 1}:5000; 
+	at org.apache.catalina.tribes.transport.nio.ParallelNioSender.sendMessage(ParallelNioSender.java:105)
+	at org.apache.catalina.tribes.transport.nio.PooledParallelSender.sendMessage(PooledParallelSender.java:48)
+	at org.apache.catalina.tribes.transport.ReplicationTransmitter.sendMessage(ReplicationTransmitter.java:65)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.sendMessage(ChannelCoordinator.java:82)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.sendMessage(ThroughputInterceptor.java:67)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.sendMessage(MessageDispatchInterceptor.java:93)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.sendMessage(TcpFailureDetector.java:92)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.sendMessage(ChannelInterceptorBase.java:86)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:264)
+	at org.apache.catalina.tribes.group.GroupChannel.send(GroupChannel.java:217)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.send(SimpleTcpCluster.java:690)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.send(SimpleTcpCluster.java:662)
+	at org.apache.catalina.ha.session.DeltaManager.send(DeltaManager.java:466)
+	at org.apache.catalina.ha.session.DeltaManager.sendCreateSession(DeltaManager.java:456)
+	at org.apache.catalina.ha.session.DeltaManager.createSession(DeltaManager.java:430)
+	at org.apache.catalina.ha.session.DeltaManager.createSession(DeltaManager.java:416)
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:3044)
+	at org.apache.catalina.connector.Request.getSession(Request.java:2434)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:896)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:908)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:137)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:102)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.ha.session.JvmRouteBinderValve.invoke(JvmRouteBinderValve.java:193)
+	at org.apache.catalina.ha.tcp.ReplicationValve.invoke(ReplicationValve.java:322)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+13-Oct-2018 12:11:53.188 信息 [GroupChannel-Heartbeat[Catalina-Channel]-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:5000,{192, 168, 137, 1},5000, alive=168293, securePort=-1, UDP Port=-1, id={-41 60 56 -50 -39 -13 70 88 -116 -28 21 8 23 47 68 -13 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:13:00.022 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:13:00.033 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:13:00.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:13:00.039 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:13:00.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:13:00.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:13:00.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:13:00.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:13:00.050 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:13:00.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:13:00.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:13:00.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:13:00.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:13:00.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:13:00.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:13:00.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:13:00.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:13:00.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:13:00.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:13:00.057 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:13:00.264 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:13:00.420 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:13:00.438 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:13:00.448 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:13:00.451 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1214 ms
+13-Oct-2018 12:13:00.528 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:13:00.528 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:13:00.544 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:13:00.570 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:4000]
+13-Oct-2018 12:13:00.780 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [203] milliseconds.
+13-Oct-2018 12:13:00.789 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:13:00.794 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:13:01.796 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:13:01.802 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 12:13:02.804 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 12:13:02.810 严重 [main] org.apache.catalina.ha.deploy.FarmWarDeployer.start FarmWarDeployer can only work as host cluster subelement!
+13-Oct-2018 12:13:02.847 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 12:13:03.306 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [459] ms
+13-Oct-2018 12:13:03.308 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 12:13:04.127 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [819] ms
+13-Oct-2018 12:13:04.128 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 12:13:04.187 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [59] ms
+13-Oct-2018 12:13:04.188 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 12:13:04.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [72] ms
+13-Oct-2018 12:13:04.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 12:13:04.342 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 12:13:04.345 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 12:13:04.348 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2]: skipping state transfer. No members active in cluster group.
+13-Oct-2018 12:13:04.362 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [102] ms
+13-Oct-2018 12:13:04.364 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 12:13:04.519 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [154] ms
+13-Oct-2018 12:13:04.531 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 12:13:04.542 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:13:04.559 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:13:04.566 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4097 ms
+13-Oct-2018 12:13:40.384 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 12:13:41.011 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4001,{192, 168, 137, 1},4001, alive=1016, securePort=-1, UDP Port=-1, id={-44 -28 -122 113 56 -63 79 -57 -99 -113 18 100 -99 -54 91 -87 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:18:55.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:18:55.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:18:55.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:18:55.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:18:55.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:18:55.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:18:55.417 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:18:55.576 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:18:55.678 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:18:55.688 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:18:55.692 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:18:55.693 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 884 ms
+13-Oct-2018 12:18:55.739 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:18:55.740 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:18:55.759 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:18:55.789 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:4000]
+13-Oct-2018 12:18:55.983 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [189] milliseconds.
+13-Oct-2018 12:18:55.992 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:18:55.997 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:18:56.998 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:18:57.000 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 12:18:58.000 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 12:18:58.045 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 12:18:58.504 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [458] ms
+13-Oct-2018 12:18:58.504 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 12:18:59.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [806] ms
+13-Oct-2018 12:18:59.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 12:18:59.352 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [42] ms
+13-Oct-2018 12:18:59.353 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 12:18:59.397 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [44] ms
+13-Oct-2018 12:18:59.398 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node2]
+13-Oct-2018 12:18:59.441 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node2] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 12:18:59.442 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node2]
+13-Oct-2018 12:18:59.443 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node2]: skipping state transfer. No members active in cluster group.
+13-Oct-2018 12:18:59.451 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node2] has finished in [53] ms
+13-Oct-2018 12:18:59.452 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 12:18:59.497 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [45] ms
+13-Oct-2018 12:18:59.498 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 12:18:59.505 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:18:59.521 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:18:59.526 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3831 ms
+13-Oct-2018 12:19:04.107 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 12:19:04.744 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4001,{192, 168, 137, 1},4001, alive=1015, securePort=-1, UDP Port=-1, id={75 -39 112 55 -34 59 70 -91 -81 -61 49 88 -92 73 -44 7 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:19:06.989 警告 [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 12:19:28.391 警告 [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/node1]
+13-Oct-2018 12:30:05.654 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:30:05.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:30:05.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:30:05.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:30:05.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:30:05.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:30:05.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:30:05.663 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:30:05.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:30:05.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:30:05.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:30:05.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:30:05.664 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:30:05.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:30:05.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:30:05.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:30:05.665 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:30:05.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:30:05.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:30:05.667 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:30:05.870 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:30:05.980 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:30:05.990 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:30:05.994 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:30:05.996 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1053 ms
+13-Oct-2018 12:30:06.045 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:30:06.045 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:30:06.066 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:30:06.095 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:4000]
+13-Oct-2018 12:30:06.296 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [197] milliseconds.
+13-Oct-2018 12:30:06.304 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:30:06.308 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:30:07.309 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:30:07.312 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 12:30:08.314 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 12:30:08.370 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 12:30:08.884 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [514] ms
+13-Oct-2018 12:30:08.885 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 12:30:09.590 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [705] ms
+13-Oct-2018 12:30:09.592 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 12:30:09.800 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [208] ms
+13-Oct-2018 12:30:09.808 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 12:30:09.904 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [96] ms
+13-Oct-2018 12:30:09.905 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node1]
+13-Oct-2018 12:30:09.971 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node1] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 12:30:09.974 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node1]
+13-Oct-2018 12:30:09.975 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node1]: skipping state transfer. No members active in cluster group.
+13-Oct-2018 12:30:09.987 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node1] has finished in [82] ms
+13-Oct-2018 12:30:09.991 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 12:30:10.066 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [73] ms
+13-Oct-2018 12:30:10.069 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 12:30:10.079 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:30:10.104 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:30:10.114 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4117 ms
+13-Oct-2018 12:30:13.390 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 12:30:14.086 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4001,{192, 168, 137, 1},4001, alive=1027, securePort=-1, UDP Port=-1, id={-115 49 76 124 -87 80 65 -106 -107 -125 -71 35 -46 31 47 67 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:31:54.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 12:31:54.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 12:31:54.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 12:31:54.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 12:31:54.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 12:31:54.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 12:31:54.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 12:31:54.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 12:31:54.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 12:31:54.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 12:31:54.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 12:31:54.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:31:54.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 12:31:54.423 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 12:31:54.424 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 12:31:54.578 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:31:54.684 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:31:54.694 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:31:54.700 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 12:31:54.700 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 882 ms
+13-Oct-2018 12:31:54.753 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 12:31:54.754 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 12:31:54.775 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 12:31:54.809 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:4001]
+13-Oct-2018 12:31:55.058 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [242] milliseconds.
+13-Oct-2018 12:31:55.074 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 12:31:55.076 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 12:31:55.464 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4000,{192, 168, 137, 1},4000, alive=28182, securePort=-1, UDP Port=-1, id={-39 -27 -22 72 55 62 71 31 -69 25 122 -32 -42 -102 -119 -89 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 12:31:56.080 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 12:31:56.087 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 12:31:56.106 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 12:31:57.092 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 12:31:57.105 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 12:31:57.458 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [353] ms
+13-Oct-2018 12:31:57.458 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 12:31:58.167 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [709] ms
+13-Oct-2018 12:31:58.168 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 12:31:58.215 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [46] ms
+13-Oct-2018 12:31:58.215 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 12:31:58.261 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [46] ms
+13-Oct-2018 12:31:58.262 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node1]
+13-Oct-2018 12:31:58.310 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/node1] to cluster element [Engine] with name [Catalina]
+13-Oct-2018 12:31:58.314 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/node1]
+13-Oct-2018 12:31:58.326 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/node1], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4000,{192, 168, 137, 1},4000, alive=30686, securePort=-1, UDP Port=-1, id={-39 -27 -22 72 55 62 71 31 -69 25 122 -32 -42 -102 -119 -89 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Oct-2018 12:31:58.429 信息 [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/node1]; session state send at [10/13/18 12:31 PM] received in [114] ms.
+13-Oct-2018 12:31:58.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node1] has finished in [175] ms
+13-Oct-2018 12:31:58.445 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 12:31:58.488 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [43] ms
+13-Oct-2018 12:31:58.489 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 12:31:58.497 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 12:31:58.515 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 12:31:58.522 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3821 ms
+13-Oct-2018 16:26:15.949 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+13-Oct-2018 16:26:15.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+13-Oct-2018 16:26:15.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+13-Oct-2018 16:26:15.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Oct-2018 16:26:15.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Oct-2018 16:26:15.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Oct-2018 16:26:15.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre
+13-Oct-2018 16:26:15.958 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_73-b02
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\files\04.study\tomcat\node2
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\files\04.study\tomcat\node2
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\files\04.study\tomcat\node2\conf\logging.properties
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Oct-2018 16:26:15.959 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Oct-2018 16:26:15.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Oct-2018 16:26:15.960 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\files\04.study\tomcat\node2
+13-Oct-2018 16:26:15.961 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\files\04.study\tomcat\node2
+13-Oct-2018 16:26:15.961 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\files\04.study\tomcat\node2\temp
+13-Oct-2018 16:26:15.961 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\bin;C:\files\env\jdk1.8.0_73x64\jdk1.8.0_73x64\jre\bin;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2\plugins\maven\lib\maven3\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\erl9.1\lib\rabbitmq_server-3.6.12\sbin;C:\Python27;C:\Program Files\R\R-3.4.3\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\files\env\curl-7.59.0-win32-mingw\bin;C:\files\env\gradle-4.6\bin;C:\files\13AI\OpenCV\opencv\build\x64\vc14\bin;C:\files\13AI\人体检测\OpenPose_demo_1.0.1\OpenPose_demo_1.0.1\bin;C:\files\13AI\OpenCV\opencv\build\java\x64;C:\Users\92039\AppData\Local\Android\Sdk\platform-tools;C:\files\env\php\php;C:\files\env\php\php\ext;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\files\01.document\04.strom\env\apache-storm-1.2.2\bin;C:\files\env\apache-ant-1.9.13\bin;C:\Perl64\bin;C:\Users\92039\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\92039\AppData\Local\Programs\Python\Python36\;C:\Users\92039\AppData\Local\Microsoft\WindowsApps;C:\Users\92039\AppData\Local\atom\bin;C:\Users\92039\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+13-Oct-2018 16:26:16.151 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 16:26:16.247 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 16:26:16.281 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 16:26:16.285 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Oct-2018 16:26:16.286 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 924 ms
+13-Oct-2018 16:26:16.356 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Oct-2018 16:26:16.357 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+13-Oct-2018 16:26:16.367 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Oct-2018 16:26:16.431 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.137.1:4001]
+13-Oct-2018 16:26:16.685 信息 [main] org.apache.catalina.tribes.util.UUIDGenerator.<clinit> Creation of SecureRandom instance for UUID generation using [SHA1PRNG] took [249] milliseconds.
+13-Oct-2018 16:26:16.695 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Oct-2018 16:26:16.698 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Oct-2018 16:26:16.763 信息 [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4000,{192, 168, 137, 1},4000, alive=252634, securePort=-1, UDP Port=-1, id={-25 76 -71 92 -71 111 73 52 -125 -74 -66 107 -8 -80 92 9 }, payload={}, command={}, domain={}, ]]
+13-Oct-2018 16:26:17.699 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Oct-2018 16:26:17.707 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Oct-2018 16:26:17.724 信息 [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Oct-2018 16:26:18.709 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Oct-2018 16:26:18.736 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\docs]
+13-Oct-2018 16:26:19.485 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:19.541 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Attached to RedisSessionHandlerValve
+13-Oct-2018 16:26:19.541 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.initializeSerializer Attempting to use serializer :com.orangefunction.tomcat.redissessions.JavaSerializer
+13-Oct-2018 16:26:19.543 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Will expire sessions after 1800 seconds
+13-Oct-2018 16:26:19.610 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\docs] has finished in [874] ms
+13-Oct-2018 16:26:19.611 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\examples]
+13-Oct-2018 16:26:20.786 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:20.867 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Attached to RedisSessionHandlerValve
+13-Oct-2018 16:26:20.867 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.initializeSerializer Attempting to use serializer :com.orangefunction.tomcat.redissessions.JavaSerializer
+13-Oct-2018 16:26:20.869 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Will expire sessions after 1800 seconds
+13-Oct-2018 16:26:20.889 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\examples] has finished in [1,278] ms
+13-Oct-2018 16:26:20.891 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager]
+13-Oct-2018 16:26:21.067 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:21.075 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\host-manager] has finished in [185] ms
+13-Oct-2018 16:26:21.079 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\manager]
+13-Oct-2018 16:26:21.195 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:21.204 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\manager] has finished in [124] ms
+13-Oct-2018 16:26:21.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\node1]
+13-Oct-2018 16:26:21.378 警告 [localhost-startStop-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.registerManager Manager [com.orangefunction.tomcat.redissessions.RedisSessionManager[/node1]] does not implement ClusterManager, addition to cluster has been aborted.
+13-Oct-2018 16:26:21.401 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:21.411 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Attached to RedisSessionHandlerValve
+13-Oct-2018 16:26:21.413 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.initializeSerializer Attempting to use serializer :com.orangefunction.tomcat.redissessions.JavaSerializer
+13-Oct-2018 16:26:21.415 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Will expire sessions after 1800 seconds
+13-Oct-2018 16:26:21.433 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\node1] has finished in [227] ms
+13-Oct-2018 16:26:21.436 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT]
+13-Oct-2018 16:26:21.580 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Oct-2018 16:26:21.582 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Attached to RedisSessionHandlerValve
+13-Oct-2018 16:26:21.582 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.initializeSerializer Attempting to use serializer :com.orangefunction.tomcat.redissessions.JavaSerializer
+13-Oct-2018 16:26:21.586 信息 [localhost-startStop-1] com.orangefunction.tomcat.redissessions.RedisSessionManager.startInternal Will expire sessions after 1800 seconds
+13-Oct-2018 16:26:21.589 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\files\04.study\tomcat\node2\webapps\ROOT] has finished in [154] ms
+13-Oct-2018 16:26:21.603 信息 [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Oct-2018 16:26:21.612 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+13-Oct-2018 16:26:21.637 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8010"]
+13-Oct-2018 16:26:21.648 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5360 ms
+13-Oct-2018 16:27:11.306 信息 [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 137, 1}:4000,{192, 168, 137, 1},4000, alive=303699, securePort=-1, UDP Port=-1, id={-25 76 -71 92 -71 111 73 52 -125 -74 -66 107 -8 -80 92 9 }, payload={}, command={}, domain={}, ]] message. Will verify.
